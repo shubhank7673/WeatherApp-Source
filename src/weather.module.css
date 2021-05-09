@@ -1,0 +1,106 @@
+.bgvideo {
+  position: fixed;
+  /* width: 100vw; */
+  /* height: 100vh; */
+  overflow: hidden;
+  /* border: 10px solid yellow; */
+}
+.mainContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.mainContainer {
+  /* border: 5px solid green; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+.todayData {
+  /* border: 5px solid white; */
+  /* margin-left: 40vw; */
+  /* margin-right: 0; */
+  /* margin-top: 0;
+  margin-bottom: 0; */
+  color: white;
+  margin: auto;
+  width: fit-content;
+  /* background: rgba(256, 256, 256, 0.5); */
+  border-radius: 15px;
+}
+.inputDiv {
+  margin-top: 5vh;
+}
+.inputBox {
+  width: 60vw;
+  border-radius: 10px 0px 10px 0px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  /* border: 1px solid black; */
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.button {
+  background: rgba(256, 256, 256, 0.5);
+  border-radius: 15px;
+  padding: 10px;
+  border: none;
+  margin-left: 5px;
+  outline: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  /* font-weight: ; */
+}
+.button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+.button:active {
+  background-color: grey;
+  box-shadow: none;
+}
+.loading {
+  height: 1em;
+  /* border: 10px solid black; */
+}
+.forecastTab {
+  /* border: 5px solid black; */
+  background: rgba(256, 256, 256, 0.4);
+  width: 90vw;
+  height: fit-content;
+  margin: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  border-radius: 5px;
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
+  white-space: nowrap;
+  /* padding-bottom: -10px; */
+}
+.forecastTab::-webkit-scrollbar {
+  display: none;
+}
+.innerForecastTab {
+  background: rgba(0, 0, 0, 0.3);
+  height: fit-content;
+  width: 15vh;
+  margin: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  padding: 5px;
+  margin-top: 25px;
+}
+.date {
+  background: rgba(256, 256, 256, 0.4);
+  display: block;
+  position: absolute;
+  /* margin-left: "5px"; */
+  /* width: fit-content; */
+  z-index: 2;
+  padding-right: 5px;
+  padding-left: 3px;
+  color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px 0px 5px 0px;
+}
